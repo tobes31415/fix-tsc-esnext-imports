@@ -1,0 +1,15 @@
+{
+  "name": "fix-tsc-esnext-imports",
+  "version": "1.0.0",
+  "description": "Appends .js file extension to imports",
+  "keywords": [
+    "tsc",
+    "esnext",
+    "extension"
+  ],
+  "bin": {
+    "fix-tsc-esnext-imports": "./fix-tsc-esnext-imports.js"
+  },
+  "author": "Jake Tober",
+  "license": "MIT"
+}
