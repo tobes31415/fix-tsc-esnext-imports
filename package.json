@@ -1,6 +1,6 @@
 {
   "name": "fix-tsc-esnext-imports",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Appends .js file extension to imports",
   "keywords": [
     "tsc",
@@ -8,7 +8,7 @@
     "extension"
   ],
   "bin": {
-    "fix-tsc-esnext-imports": "./fix-tsc-esnext-imports.js"
+    "fix-tsc-esnext-imports": "cli"
   },
   "author": "Jake Tober",
   "license": "MIT"

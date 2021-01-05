@@ -13,7 +13,6 @@ function buildFilesMap(dir, map) {
     }
     fs.readdirSync(dir).forEach(file => {
         const resolvedFile = path.join(dir, file);
-        console.log(" - " + resolvedFile)
         if (fs.statSync(resolvedFile).isDirectory()) {
             buildFilesMap(resolvedFile, map);
         } else {
