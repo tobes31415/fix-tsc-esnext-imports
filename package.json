@@ -10,6 +10,11 @@
   "bin": {
     "fix-tsc-esnext-imports": "cli"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobes31415/fix-tsc-esnext-imports"
+  },
+  "homepage": "https://www.npmjs.com/package/fix-tsc-esnext-imports",
   "author": "Jake Tober",
   "license": "MIT"
 }
