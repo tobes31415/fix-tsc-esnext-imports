@@ -1,6 +1,6 @@
 {
   "name": "fix-tsc-esnext-imports",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Appends .js file extension to imports",
   "keywords": [
     "tsc",
