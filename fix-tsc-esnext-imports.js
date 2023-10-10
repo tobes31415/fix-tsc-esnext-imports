@@ -24,7 +24,7 @@ function buildFilesMap(dir, map) {
     return map;
 }
 
-const importMatch = /(export|import)(.*['|"])(\.\/[^\.]*)(['|"].*)/;
+const importMatch = /(export|import)(.*['|"])(\.+\/[^\.]*)(['|"].*)/;
 
 function fixImports(allFiles, fileInfo) {
     const contents = fs.readFileSync(fileInfo.resolvedFile).toString().split('\n');
